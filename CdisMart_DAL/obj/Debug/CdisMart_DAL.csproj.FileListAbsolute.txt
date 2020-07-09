@@ -1,0 +1,9 @@
+C:\Users\Jared\Desktop\Jafet\CDIS\Proyecto\CdisMart\CdisMart_DAL\bin\Debug\CdisMart_DAL.dll.config
+C:\Users\Jared\Desktop\Jafet\CDIS\Proyecto\CdisMart\CdisMart_DAL\bin\Debug\CdisMart_DAL.dll
+C:\Users\Jared\Desktop\Jafet\CDIS\Proyecto\CdisMart\CdisMart_DAL\bin\Debug\CdisMart_DAL.pdb
+C:\Users\Jared\Desktop\Jafet\CDIS\Proyecto\CdisMart\CdisMart_DAL\bin\Debug\EntityFramework.dll
+C:\Users\Jared\Desktop\Jafet\CDIS\Proyecto\CdisMart\CdisMart_DAL\bin\Debug\EntityFramework.xml
+C:\Users\Jared\Desktop\Jafet\CDIS\Proyecto\CdisMart\CdisMart_DAL\obj\Debug\CdisMart_DAL.csprojAssemblyReference.cache
+C:\Users\Jared\Desktop\Jafet\CDIS\Proyecto\CdisMart\CdisMart_DAL\obj\Debug\CdisMart_DAL.csproj.CopyComplete
+C:\Users\Jared\Desktop\Jafet\CDIS\Proyecto\CdisMart\CdisMart_DAL\obj\Debug\CdisMart_DAL.dll
+C:\Users\Jared\Desktop\Jafet\CDIS\Proyecto\CdisMart\CdisMart_DAL\obj\Debug\CdisMart_DAL.pdb

@@ -1,0 +1,40 @@
+﻿body,html{
+    font-family: Consolas;
+    font-size: 18px;
+}
+#formLogin{
+    width: 50%;
+    margin:100px auto;
+    border: 1px solid blue;
+    box-shadow: gray 5px 5px;
+    padding-bottom: 20px;
+}
+
+#imgLogin{
+    content: url('/Imagenes/login.png');
+    width: 30%;
+    margin: auto;
+}
+table{
+    margin: auto;
+}
+
+.btn{
+    background-color: blue;
+    margin-top: 10px;
+    border: none;
+    color:white;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+#registro {
+    color: #000ce5;
+    text-align:center;
+    font-size: 14px;
+}
+
+#formSign {
+    width: 70%;
+    margin: 100px auto;
+    padding-bottom: 20px;
+}
