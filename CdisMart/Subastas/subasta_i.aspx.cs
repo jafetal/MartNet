@@ -16,6 +16,7 @@ namespace CdisMart.Subastas
         protected void Page_Load(object sender, EventArgs e)
         {
             txtFechaI.Text = DateTime.Now.Date.ToString().Substring(0,10).Replace('/','-');
+            Comp_fechaI.ValueToCompare = DateTime.Now.Date.ToString().Substring(0, 10);
         }
         
         protected void agregar_Click(object sender, EventArgs e)

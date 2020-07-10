@@ -22,3 +22,13 @@
     background-color: #ECECEC;
     border-radius:10px;
 }
+
+table.GridView th {
+    border-bottom: 1px solid #f1f1f1;
+    text-decoration: none;
+}
+
+table.GridView tr:hover {
+    background-color: #d5d5d5;
+    cursor:pointer;
+}

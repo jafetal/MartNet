@@ -126,7 +126,9 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Imagenes\history.png" />
     <Content Include="Imagenes\login.png" />
+    <Content Include="Imagenes\ojo.png" />
     <Content Include="Scripts\chosen.jquery.js" />
     <Content Include="Scripts\jquery-ui.js" />
     <Content Include="Subastas\ListaSubastas_s.aspx" />
@@ -162,6 +164,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="Subastas\subasta_i.aspx" />
+    <Content Include="Subastas\Subasta_info.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -215,6 +218,13 @@
     </Compile>
     <Compile Include="Subastas\subasta_i.aspx.designer.cs">
       <DependentUpon>subasta_i.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Subastas\Subasta_info.aspx.cs">
+      <DependentUpon>Subasta_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Subastas\Subasta_info.aspx.designer.cs">
+      <DependentUpon>Subasta_info.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

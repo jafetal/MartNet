@@ -22,5 +22,11 @@ namespace CdisMart_BLL
                 throw new Exception("No se puede tener mas de 3 subastas activas.");
             }
         }
+
+        public List<object> cargarSubastas()
+        {
+            AuctionDAL auctionDAL = new AuctionDAL();
+            return auctionDAL.cargarSubastas();
+        }
     }
 }

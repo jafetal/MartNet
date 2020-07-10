@@ -123,6 +123,15 @@ namespace CdisMart.Subastas
         protected global::System.Web.UI.WebControls.RequiredFieldValidator req_hoI;
 
         /// <summary>
+        /// Control Comp_fechaI.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator Comp_fechaI;
+
+        /// <summary>
         /// Control txtFechaF.
         /// </summary>
         /// <remarks>

@@ -36,6 +36,8 @@
                             ValidationGroup="vlg1" Display="Dynamic" ControlToValidate="txtFIH" OnServerValidate="c_horaI_ServerValidate"></asp:CustomValidator>
                         <asp:RequiredFieldValidator ID="req_hoI" runat="server" ErrorMessage="Ingrese la hora inicial"
                             ControlToValidate="txtFIH" Display="Dynamic" ValidationGroup="vlg1"></asp:RequiredFieldValidator>
+                        <asp:CompareValidator ID="Comp_fechaI" runat="server" ErrorMessage="Debe ser a partir de ahora" Operator="GreaterThanEqual" Type="Date"
+                            ControlToValidate="txtFechaI" Display="Dynamic" ValidationGroup="vlg1"></asp:CompareValidator>
                     </td>
                 </tr>
                 <tr>
