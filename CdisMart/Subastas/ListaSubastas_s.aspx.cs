@@ -5,13 +5,19 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace CdisMart
+namespace CdisMart.ListaSubastas
 {
-    public partial class Contact : Page
+    public partial class ListaSubastas_s : System.Web.UI.Page
     {
+        #region eventos
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
+        #endregion
+
+        #region metodos
+       
+
+        #endregion
     }
 }

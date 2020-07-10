@@ -1,0 +1,24 @@
+﻿.cajaTexto{
+    height:30px;
+    width:300px;
+    border-radius:5px;
+    border:1px solid;
+    margin:5px;
+}
+.cajaFecha {
+    height: 30px;
+    width: 150px;
+    border-radius: 2px;
+    border: 1px solid;
+    margin: 5px;
+}
+.formulario {
+    position: center;
+    top: 20%;
+    left: 20%;
+    margin-top: 50px;
+    margin-left: -50px;
+    padding: 50px;
+    background-color: #ECECEC;
+    border-radius:10px;
+}

@@ -15,7 +15,7 @@
             <table>
                 <tr>
                     <td>Nombre Completo: </td>
-                    <td><asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+                    <td><asp:TextBox ID="txtNombre" runat="server" AutoCompleteType="Disabled"></asp:TextBox>
                     </td>
                     <td style="width:300px; color:red;"><asp:RequiredFieldValidator ID="rfv_nombre" runat="server" ErrorMessage="El nombre es requerido"
                             ControlToValidate="txtNombre" Display="Dynamic" ValidationGroup="vlg1"></asp:RequiredFieldValidator>
@@ -25,7 +25,7 @@
                 </tr>
                 <tr>
                     <td>Correo electrónico: </td>
-                    <td><asp:TextBox ID="txtCorreo" runat="server"></asp:TextBox></td>
+                    <td><asp:TextBox ID="txtCorreo" runat="server" autocomplete="off"></asp:TextBox></td>
                     <td style="width:300px; color:red;">
                         <asp:RequiredFieldValidator ID="rfv_correo" runat="server" ErrorMessage="El correo es requerido"
                             ControlToValidate="txtCorreo" Display="Dynamic" ValidationGroup="vlg1"></asp:RequiredFieldValidator>
@@ -36,7 +36,7 @@
                 </tr>
                 <tr>
                     <td>Usuario: </td>
-                    <td><asp:TextBox ID="txtUsuario" runat="server"></asp:TextBox></td>
+                    <td><asp:TextBox ID="txtUsuario" runat="server" autocomplete="off"></asp:TextBox></td>
                     <td style="width:300px; color:red;">
                          <asp:RequiredFieldValidator ID="rfv_usuario" runat="server" ErrorMessage="Usuario requerido"
                             ControlToValidate="txtUsuario" Display="Dynamic" ValidationGroup="vlg1"></asp:RequiredFieldValidator>
@@ -67,7 +67,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td><asp:Button ID="regresar" CssClass="btn" style="background-color:black!important;" runat="server" Text="Regresar" OnClick="regresar_Click"/></td>
                     <td><asp:Button ID="registrar" CssClass="btn" runat="server" Text="Registrarse" ValidationGroup="vlg1" OnClick="registrar_Click"/>
                     </td>
                 </tr>

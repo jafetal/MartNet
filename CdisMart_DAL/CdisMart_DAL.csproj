@@ -51,6 +51,7 @@
     <Compile Include="Auction.cs">
       <DependentUpon>Mart.tt</DependentUpon>
     </Compile>
+    <Compile Include="AuctionDAL.cs" />
     <Compile Include="AuctionRecord.cs">
       <DependentUpon>Mart.tt</DependentUpon>
     </Compile>

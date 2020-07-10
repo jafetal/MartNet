@@ -28,6 +28,11 @@ namespace CdisMart
             
         }
 
+        protected void regresar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Login/login.aspx");
+        }
+
         #endregion
 
         #region métodos
@@ -53,5 +58,7 @@ namespace CdisMart
         }
 
         #endregion
+
+       
     }
 }

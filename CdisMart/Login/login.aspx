@@ -16,7 +16,7 @@
                 <tr>
                     <td>Nombre de Usuario:</td>
                     <td>
-                        <asp:TextBox ID="txtUsuario" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtUsuario" runat="server" autocomplete="off"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>

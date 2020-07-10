@@ -19,7 +19,7 @@ namespace CdisMart
         {
             if (usuarioValido())
             {
-                Response.Redirect("~/ListaSubastas/ListaSubastas_s.aspx");
+                Response.Redirect("~/Subastas/ListaSubastas_s.aspx");
             }
             else
             {
