@@ -28,5 +28,18 @@ namespace CdisMart_BLL
             AuctionDAL auctionDAL = new AuctionDAL();
             return auctionDAL.cargarSubastas();
         }
+
+        public Auction cargarSubasta(int idSubasta)
+        {
+            AuctionDAL auctionDAL = new AuctionDAL();
+            return auctionDAL.cargarSubasta(idSubasta);
+        }
+
+        public void actualizarSubasta(Auction pAuction)
+        {
+            AuctionDAL auctionDAL = new AuctionDAL();
+            auctionDAL.actualizarSubasta(pAuction);
+        }
+
     }
 }

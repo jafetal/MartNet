@@ -32,3 +32,15 @@ table.GridView tr:hover {
     background-color: #d5d5d5;
     cursor:pointer;
 }
+
+table.GridView {
+    margin-left: auto;
+    margin-right: auto;
+    width:180%;
+}
+.buscador{
+    height:35px;
+    width:100%;
+    border-radius:4px;
+    margin:10px;
+}

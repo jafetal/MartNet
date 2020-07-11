@@ -24,7 +24,7 @@ namespace CdisMart_BLL
 
             user = usuarioDal.consultarUsuarioNombre(usuario.UserName);
 
-            if(user != null)
+            if (user != null)
             {
                 throw new Exception("El nombre de usuario ya está ocupado, intente con otro.");
             }
@@ -36,6 +36,13 @@ namespace CdisMart_BLL
                     ts.Complete();
                 }
             }
+        }
+
+        public User obtenerNombre(int id)
+        {
+            UsuarioDAL usuarioDal = new UsuarioDAL();
+            return usuarioDal.obtenerNombre(id);
+
         }
     }
 }

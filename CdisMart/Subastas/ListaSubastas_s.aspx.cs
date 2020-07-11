@@ -49,7 +49,7 @@ namespace CdisMart.ListaSubastas
             if (e.Row.RowType == DataControlRowType.DataRow)
             {
                 e.Row.Attributes["onclick"] = "selectRow(" + e.Row.Cells[0].Text + ");";
-                e.Row.ToolTip = "Click to select this row.";
+                e.Row.ToolTip = "Clic para ir a subasta.";
             }
         }
     }

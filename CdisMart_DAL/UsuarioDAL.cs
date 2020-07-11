@@ -35,5 +35,14 @@ namespace CdisMart_DAL
             modelo.User.Add(usuario);
             modelo.SaveChanges();
         }
+
+        public User obtenerNombre(int id)
+        {
+            var usuario = (from musuario in modelo.User
+                           where musuario.UserId == id
+                           select musuario).FirstOrDefault();
+
+            return usuario;
+        }
     }
 }
