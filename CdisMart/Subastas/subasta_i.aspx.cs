@@ -27,7 +27,7 @@ namespace CdisMart.Subastas
                     "alert",
                     "alert('La subasta ha sido creada');window.location ='ListaSubastas_s.aspx';",
                     true);
-                //Response.Redirect("~/Subastas/ListaSubastas_s.aspx");
+                Response.Redirect("~/Subastas/ListaSubastas_s.aspx");
             }
             
         }
@@ -100,8 +100,12 @@ namespace CdisMart.Subastas
                 args.IsValid = false;
             }**/
         }
+
         #endregion
 
-
+        protected void cancelar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Subastas/ListaSubastas_s.aspx");
+        }
     }
 }

@@ -31,6 +31,7 @@ table.GridView th {
 table.GridView tr:hover {
     background-color: #d5d5d5;
     cursor:pointer;
+
 }
 
 table.GridView {
@@ -43,4 +44,27 @@ table.GridView {
     width:100%;
     border-radius:4px;
     margin:10px;
+}
+.ddl{
+    margin:25px;
+    height:35px;
+    border-radius:4px;
+}
+.total{
+    color:green;
+    font-size:16px;
+}
+.apartado{
+    margin:10px;
+    font-size:20px;
+
+}
+.btn1 {
+    background-color: black;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius:10px;
 }

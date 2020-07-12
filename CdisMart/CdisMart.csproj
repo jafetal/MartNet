@@ -131,6 +131,7 @@
     <Content Include="Imagenes\ojo.png" />
     <Content Include="Scripts\chosen.jquery.js" />
     <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Subastas\historial.aspx" />
     <Content Include="Subastas\ListaSubastas_s.aspx" />
     <Content Include="Login\login.aspx" />
     <Content Include="Login\registro.aspx" />
@@ -175,6 +176,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Subastas\historial.aspx.cs">
+      <DependentUpon>historial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Subastas\historial.aspx.designer.cs">
+      <DependentUpon>historial.aspx</DependentUpon>
     </Compile>
     <Compile Include="Subastas\ListaSubastas_s.aspx.cs">
       <DependentUpon>ListaSubastas_s.aspx</DependentUpon>
@@ -226,6 +234,9 @@
     <Compile Include="Subastas\Subasta_info.aspx.designer.cs">
       <DependentUpon>Subasta_info.aspx</DependentUpon>
     </Compile>
+    <Compile Include="TemasMart.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -236,6 +247,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="App_Themes\Tema1\" />
+    <Folder Include="App_Themes\Tema2\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -35,5 +35,16 @@ namespace CdisMart_BLL
             
         }
 
+        public List<object> cargarSubastasIdS(int idSubasta)
+        {
+            AuctionRDAL auctionRDAL = new AuctionRDAL();
+            return auctionRDAL.cargarSubastasIdS(idSubasta);
+        }
+        public List<AuctionRecord> cargarSubastasId(int idSubasta)
+        {
+            AuctionRDAL auctionRDAL = new AuctionRDAL();
+            return auctionRDAL.cargarSubastasId(idSubasta);
+        }
+
     }
 }

@@ -57,7 +57,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td><asp:Button ID="cancelar" style="background-color:black;color:white;" runat="server" Text="cancelar"/><asp:Button style="margin:10px;" ID="agregar" runat="server" Text="Agregar" ValidationGroup="vlg1" OnClick="agregar_Click"/></td>
+                    <td><asp:Button ID="cancelar" style="background-color:black;color:white;" runat="server" Text="cancelar" OnClick="cancelar_Click"/><asp:Button style="margin:10px;" ID="agregar" runat="server" Text="Agregar" ValidationGroup="vlg1" OnClick="agregar_Click"/></td>
                 </tr>
             </table>
         </div>

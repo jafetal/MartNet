@@ -16,7 +16,7 @@
                 <asp:BoundField HeaderText="Hora finaliza" DataField="EndHour"/>
                 <asp:TemplateField HeaderText="Historial">
                     <ItemTemplate>
-                        <asp:ImageButton ID="btnHistory" runat="server" ImageUrl="~/Imagenes/history.png" Height="20px" Width="20px"
+                        <asp:ImageButton ID="btnHistory" runat="server" ImageUrl="~/Imagenes/history.png" Height="30px" Width="30px"
                             CommandName="History" CommandArgument='<%# Eval("AuctionId") %>'/>
                     </ItemTemplate>
                 </asp:TemplateField>

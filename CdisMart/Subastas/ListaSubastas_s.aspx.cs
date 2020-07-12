@@ -25,7 +25,7 @@ namespace CdisMart.ListaSubastas
         {
             if (e.CommandName == "History")
             {
-                Response.Redirect("~/Subastas/ListaSubastas_s.aspx?pId=" + e.CommandArgument);
+                Response.Redirect("~/Subastas/historial.aspx?pId=" + e.CommandArgument);
             }
         }
 
